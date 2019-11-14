@@ -1,0 +1,37 @@
+body{
+    background-color:  rgb(160, 239, 241);
+}
+.content{
+    width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+table{
+    margin: 0 auto;
+}
+table .left-tab{
+    width: 50%;
+    padding-left: 200px;
+}
+#btn{
+    padding: 7px 20px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: rgb(63, 165, 224);
+    border-radius: 5px;
+    border: 1px;
+}
+h1,p{
+    text-align: center;
+}
+#description{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.input-field{
+    width: 200px;
+}
+#but{
+    height: 50px;
+}

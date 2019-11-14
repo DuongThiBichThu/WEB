@@ -1,0 +1,38 @@
+
+	h1 {
+		text-align: center;
+	}
+	p {
+		text-align: center;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+	body{
+		background-color: gray;
+	}
+	#img-div{
+		background-color: white;
+	}
+	#tribute-info ul{
+	    display: block;
+    margin: 0 auto;
+    width: 500px;
+	}
+	#tribute-info li{
+		margin-top: 15px;
+	}	
+	#tribute-info h3{
+		text-align: center;
+	}
+	#Borlaug{
+		text-align: center;
+	}
+	#Indian{
+		text-align: center;
+	}
+	#If{
+		text-align: center;	
+	}
+

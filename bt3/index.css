@@ -1,0 +1,155 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+.header-logo{
+    display: flex;
+    height: 79px;
+    background-color: #808080;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+        
+}
+.logo{
+    font-size: 20px;
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-item ul{
+    display: flex;
+    margin-top: 29px;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+.link-text{
+   padding: 25px;
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+   font-weight: bold;
+}
+.link-text:hover {
+    color:#00ffff;
+    font-size: 25px;
+    transition-duration: 0.7s;
+  }
+
+.banner{
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#input-text{  
+    width: 300px;
+    height: 23px;
+}
+button{
+    padding: 10px;
+    line-height: 10px;
+    margin-top: 20px;
+    background-color: #007af4;
+    font-weight: bold;    
+}
+.service-features{
+    width: 960px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+.service-block{
+    display: flex;
+}
+
+.service-icon{
+    display: flex;
+    font-size: 40px;
+    color: #007af4;
+    margin-right: 30px;
+    margin-top: 50px; 
+}
+.service-content
+h3{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.main-content{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.content-inner{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+.block{
+    flex: 1;
+    height: 350px;;
+    border: 1px solid black; 
+    margin-left: 10px;  
+}
+.title{
+    background-color: #c0c0c0;
+    text-align: center;
+    padding: 4px 4px;;
+}
+.level{
+    text-align: center;
+    background-color: white;
+}
+.Price{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.level
+button{
+    margin: 30px auto;
+    width: 80px;
+    height: 30px;
+    display: block;
+    border-radius: 10%;
+    border: 1px solid white;
+}
+.clear {
+    clear: both;
+}
+.main-footer{
+    background-color: #c0c0c0;
+    width: 960px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+}
+.blog-link{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+.blog-link-item{
+    padding: 5px;    
+}
+.blog-link-text{
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.normal-text{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;  
+}
